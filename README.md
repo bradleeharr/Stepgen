@@ -31,8 +31,14 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
     *  - [ ] Gallops
   * - [ ] Determine when and where to place each type of patterns by default
   * - [ ] Determine crieteria for config -- user can select areas wth Jumps or perhaps detail areas with higher musical intensity to be considered Drills
-  * - [ ] Advanced Patterns
-      
+  * - [ ] Complex Patterns
+    *  - [ ]  Crosses
+    *  - [ ]  Double Steps
+    *  - [ ]  Spins
+    *  - [ ]  Sub-Patterns
+    *  - [ ]  Triples/Triplets
+    *  - [ ]  Fourthlets
+
 * - [ ] Analyze FFT of songs to generate beats
 * - [ ] Review [AutoStepper](https://github.com/phr00t/AutoStepper)
 
