@@ -13,10 +13,18 @@ class Song:
         self.banner_file = None # PNG
         self.step_file = StepFileType.UNKNOWN # .STEP   
 
+
+        self.header = {
+            "TITLE": "",
+            "SUBTITLE" : "",
+            "ARTIST" : "",
+
+        }
         self.title=""
         self.subtitle=""
         self.artist=""
-        self.titletranslit=""
+        self.titletranslit="" 
+        #transliteration, alternative or romanized version of the title for easier readability
         self.subtitletranslit=""
         self.artisttranslit=""
         self.genre=""
@@ -36,13 +44,11 @@ class Song:
         self.bgchanges=[]
         self.keysounds=[]
 
+        self.out_file = "TEST_out_stepfile"
 
+    def to_stepfile(self, out_file):
+        with open(out_file, "w") as f:
+            for key, value in self.header.items():
+                f.write(f"#{key}:{value};\n")
+            
         
-
-# Would be cool to add an option for lyrics popping up
-# default.lua script seems like you can animate backgrounds and stuff
-
-
-# Manim for animations maybe?
-
-# Visualizer would be an interesting additiojn

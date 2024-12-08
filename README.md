@@ -1,11 +1,11 @@
 # Stepgen
-Autostepper
+An autostepper program made to support quick generation of stepfiles from playlists
 
 
 # Inspiration:
-https://github.com/chrisdonahue/ddc
+* [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
+* [AutoStepper](https://github.com/phr00t/AutoStepper)
 
-https://github.com/phr00t/AutoStepper
 
 # Tips:
 https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsnYhg/mobilebasic#h.tv62oe7zl3qz
@@ -72,3 +72,11 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
   - [ ] Test first approach
  
 * - [ ] Review [DanceDanceConvolution](https://github.com/chrisdonahue/ddc)
+
+
+
+
+##### Would be cool to add an option for lyrics popping up
+##### default.lua script seems like you can animate backgrounds and stuff
+##### Visualizer would be an interesting additiojn
+##### Manim for animations maybe?
