@@ -1,7 +1,7 @@
 # Stepgen
 An autostepper program made to support quick generation of stepfiles from playlists
 
-
+![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](image.png)
 # Inspiration:
 This project has been suggested many times
 * [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
@@ -42,6 +42,7 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 
 ### Pattern-Based
 * - [x] Song BPM (Rough)
+* - [x] FFT of Song 
 * - [ ] Song BPM (More Exact)
 * - [ ] Song Speed
 * - [ ] Song Length
@@ -79,6 +80,8 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
   - [ ] Test first approach
  
 * - [ ] Review [DanceDanceConvolution](https://github.com/chrisdonahue/ddc)
+
+
 
 
 

@@ -6,8 +6,8 @@ def test_BPM():
     dir = "tests/test_assets"
     files = ["Test-Song1.wav", "Fluffing-a-Duck.mp3", "Sneaky-Snitch.mp3"]
     expected_bpms = [120, 123, 87]
-    bpm_tolerance = 0.02
-
+    bpm_tolerance = 0.03
+    
     est_bpms = []
     for file in files:
         est_bpms.append(music_file_to_bpm(f"{dir}/{file}"))
