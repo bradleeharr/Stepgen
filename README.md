@@ -1,7 +1,7 @@
 # Stepgen
 An autostepper program made to support quick generation of stepfiles from playlists
 
-![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](image.png)
+![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](STFT_test1.png)
 # Inspiration:
 This project has been suggested many times. It seems like there is a demand for auto-generated stepfiles. Personally, I would like the ability to take a playlist of my songs and have a task run that converts this into "decent" (probably difficult to make completely optimal) stepfiles for me to play with.
 * [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
