@@ -6,4 +6,4 @@ def music_file_to_bpm(file):
     print(sr)
     tempo = librosa.feature.tempo(y=y, sr=sr)
     print(f"TEMPO Detected: {tempo}")
-    return tempo
+    return tempo[0]
