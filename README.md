@@ -11,6 +11,7 @@ Unfortuntately, many times such projects have staled and not been completed
 * [StepMania Tools](https://github.com/jjaquinta/StepManiaTools)
 * [MIDI to Stepfile](https://www.reddit.com/r/Stepmania/comments/5n0snz/progress_on_midi_to_stepfile/)
 
+> Disclaimer : Currently in dev. Progress below
 
 # Tips:
 https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsnYhg/mobilebasic#h.tv62oe7zl3qz
