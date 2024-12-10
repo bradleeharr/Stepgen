@@ -3,8 +3,13 @@ An autostepper program made to support quick generation of stepfiles from playli
 
 
 # Inspiration:
+This project has been suggested many times
 * [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
 * [AutoStepper](https://github.com/phr00t/AutoStepper)
+
+Many time it has also staled
+* [StepMania Tools](https://github.com/jjaquinta/StepManiaTools)
+* [MIDI to Stepfile](https://www.reddit.com/r/Stepmania/comments/5n0snz/progress_on_midi_to_stepfile/)
 
 
 # Tips:
