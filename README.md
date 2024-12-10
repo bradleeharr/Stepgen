@@ -43,11 +43,12 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 
 ### Pattern-Based
 * - [x] Song BPM (Rough)
-* - [x] FFT of Song 
+* - [x] FFT of Song
 * - [ ] Song BPM (More Exact)
 * - [ ] Song Speed
 * - [ ] Song Length
 * - [ ] Analyze Stepfiles
+* - [x] Output to Stepfile (headers)
 * - [ ] Output Quarter Notes to StepFile
 * - [ ] Add patterns
   * - [ ] 8ths   
