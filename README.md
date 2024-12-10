@@ -1,4 +1,4 @@
-# Stepgen
+# [WIP!] Stepgen
 An autostepper program made to support quick generation of stepfiles from playlists
 
 ![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](STFT_test1.png)
