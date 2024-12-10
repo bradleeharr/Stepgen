@@ -6,4 +6,5 @@ def test_BPM():
     file = "tests/test_assets/Test-Song.wav"
 
     bpm = music_file_to_bpm(file)
+    print(bpm)
     assert bpm == pytest.approx(120, 1)
