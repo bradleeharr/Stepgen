@@ -3,11 +3,11 @@ An autostepper program made to support quick generation of stepfiles from playli
 
 
 # Inspiration:
-This project has been suggested many times
+This project has been suggested many times. It seems like there is a demand for auto-generated stepfiles. Personally, I would like the ability to take a playlist of my songs and have a task run that converts this into "decent" (probably difficult to make completely optimal) stepfiles for me to play with.
 * [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
 * [AutoStepper](https://github.com/phr00t/AutoStepper)
 
-Many time it has also staled
+Unfortuntately, many times such projects have staled and not been completed
 * [StepMania Tools](https://github.com/jjaquinta/StepManiaTools)
 * [MIDI to Stepfile](https://www.reddit.com/r/Stepmania/comments/5n0snz/progress_on_midi_to_stepfile/)
 
