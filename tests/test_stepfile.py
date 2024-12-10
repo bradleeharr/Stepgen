@@ -8,3 +8,8 @@ def test_Song_to_file():
     a.to_stepfile("test_stepfile.sm")
 
     print("test finished")
+
+
+def test_Parse_Wav_File():
+    a = StepFile()
+    

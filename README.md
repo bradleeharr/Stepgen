@@ -41,6 +41,8 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 # Checklist
 
 ### Pattern-Based
+* - [x] Song BPM (Rough)
+* - [ ] Song BPM (More Exact)
 * - [ ] Song Speed
 * - [ ] Song Length
 * - [ ] Analyze Stepfiles
@@ -69,7 +71,7 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 
 * - [ ] Analyze FFT of songs to generate beats
 * - [ ] Review [AutoStepper](https://github.com/phr00t/AutoStepper)
-
+* - [ ] Generate Background Animations using some Music Visualizer
 
 ### NN-Based
 * - [ ] Gather Stepfiles
