@@ -15,6 +15,10 @@ class StepFile:
         self.header = StepFileHeader()
         self.notes = StepFileNotes()
 
+        self.album_name = "InitAlbum" # This is the output folder name that can hold a collection of songs which will themselves be folders
+        self.song_name = "Title" # This is the song folder name that holds the the mp3, stepfile, and images/animations
+        
+
     def to_stepfile(self, out_file):
         with open(out_file, "w") as f:
             f.write(self.header.to_file_format())
