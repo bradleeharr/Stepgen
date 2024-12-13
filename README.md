@@ -1,7 +1,7 @@
-# Stepgen
+# [WIP!] Stepgen
 An autostepper program made to support quick generation of stepfiles from playlists
 
-![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](image.png)
+![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](STFT_test1.png)
 # Inspiration:
 This project has been suggested many times. It seems like there is a demand for auto-generated stepfiles. Personally, I would like the ability to take a playlist of my songs and have a task run that converts this into "decent" (probably difficult to make completely optimal) stepfiles for me to play with.
 * [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
@@ -43,11 +43,12 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 
 ### Pattern-Based
 * - [x] Song BPM (Rough)
-* - [x] FFT of Song 
+* - [x] FFT of Song
 * - [ ] Song BPM (More Exact)
 * - [ ] Song Speed
 * - [ ] Song Length
 * - [ ] Analyze Stepfiles
+* - [x] Output to Stepfile (headers)
 * - [ ] Output Quarter Notes to StepFile
 * - [ ] Add patterns
   * - [ ] 8ths   
