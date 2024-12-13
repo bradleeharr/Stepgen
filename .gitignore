@@ -2,3 +2,8 @@ src/__pycache__/
 tests/__pycache__/
 .venv/
 .vscode/
+
+*/__pycache__/**
+tests/viz/__pycache__/
+
+test_stepfile.sm
