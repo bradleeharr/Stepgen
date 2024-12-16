@@ -14,7 +14,7 @@ def test_Plot_fft():
 
 
 def test_Plot_time():
-    dir = "test/test_assets"
+    dir = "tests/test_assets"
     file = "Fluffing-a-Duck.mp3"
     y, sr = librosa.load(f"{dir}/{file}")
 
