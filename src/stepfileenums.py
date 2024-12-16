@@ -20,8 +20,7 @@ class NoteType(Enum):
     EIGHTH = 2
 
 class Direction(Enum):
-    NONE = 0
-    LEFT = 1
-    UP = 2
-    DOWN = 3
-    RIGHT = 4 
+    LEFT = 0
+    UP = 1
+    DOWN = 2
+    RIGHT = 3 

@@ -1,7 +1,5 @@
 from typing import List
-from stepfileenums import NoteType, Direction
-
-from src.stepfileenums import ModeType, Difficulty
+from src.stepfileenums import NoteType, Direction, ModeType, Difficulty
 
 class StepFileNotes:
     def __init__(self):
@@ -11,23 +9,28 @@ class StepFileNotes:
         self.beatsList = []
 
 
+
     def add_note(self, note: NoteType, directions: List[Direction]) -> None:
-        self.beatsList.append()
-        
-    def add_rest(self, note: NoteType):
+
+        row = [0, 0, 0, 0]
+        for direction in directions:
+            idx = direction.value
+            row[idx] = 1
+
         match note:
             case NoteType.HALF:
-                self.beatsList.append([0, 0, 0, 0])
-                self.beatsList.append([0, 0, 0, 0])
-                self.beatsList.append([0, 0, 0, 0])
-                self.beatsList.append([0, 0, 0, 0])
+                self.beatsList.append([row]*4)
             case NoteType.QUARTER:
-                self.beatsList.append([0, 0, 0, 0])
-                self.beatsList.append([0, 0, 0, 0])
+                self.beatsList.append([row]*2)
             case NoteType.EIGHTH:
-                self.beatsList.append([0, 0, 0, 0])
+                self.beatsList.append([row])
             case _:
-                raise NotImplementedError("NoteType to add_rest() not implemented")
+                raise NotImplementedError("NoteType to add_note() not implemented")
+    
+    def add_rest(self, note: NoteType):
+        self.add_note(note, [])
+
+
 
     def get_beats_list_str(self):
         out_str = ""
