@@ -34,8 +34,9 @@ class StepFileNotes:
 
     def get_beats_list_str(self):
         out_str = ""
-        for line in self.beatsList:
-            out_str = out_str + line
+        for group in self.beatsList:
+            for line in group:
+                    out_str = out_str + "".join(map(str, line)) + ",\n\t"
         return out_str
 
     def to_file_format(self):

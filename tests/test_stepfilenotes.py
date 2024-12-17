@@ -10,13 +10,19 @@ def test_Notes_to_file():
     uut.add_note(NoteType.QUARTER, [Direction.DOWN])
     uut.add_rest(NoteType.QUARTER)
     uut.add_note(NoteType.QUARTER, [Direction.LEFT])
+    uut.add_note(NoteType.EIGHTH, [Direction.RIGHT])
+    uut.add_note(NoteType.HALF, [Direction.UP, Direction.LEFT])
 
     [print("\n",row) for row in uut.beatsList]
     assert uut.beatsList == [
         [[0, 0, 1, 0], [0, 0, 1, 0]],
         [[0, 0, 0, 0], [0, 0, 0, 0,]],
-        [[1, 0, 0, 0], [1, 0, 0, 0,]]
+        [[1, 0, 0, 0], [1, 0, 0, 0,]],
+        [[0, 0, 0, 1]],
+        [[1, 1, 0, 0], [1, 1, 0, 0], [1, 1, 0, 0], [1, 1, 0, 0]]
     ]
+
+    print(uut.to_file_format())
 
 def test_Parse_Wav_File():
     pass
