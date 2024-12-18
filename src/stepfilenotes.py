@@ -8,10 +8,7 @@ class StepFileNotes:
         self.difficulty_level = 0
         self.beatsList = []
 
-
-
     def add_note(self, note: NoteType, directions: List[Direction]) -> None:
-
         row = [0, 0, 0, 0]
         for direction in directions:
             idx = direction.value
@@ -30,13 +27,14 @@ class StepFileNotes:
     def add_rest(self, note: NoteType):
         self.add_note(note, [])
 
-
-
     def get_beats_list_str(self):
         out_str = ""
-        for group in self.beatsList:
-            for line in group:
-                    out_str = out_str + "".join(map(str, line)) + ",\n\t"
+        for i, measure in enumerate(self.beatsList):
+            out_str = out_str + f"// Measure {i}\n\t"
+            for line in measure:
+                    out_str = out_str + "".join(map(str, line)) + "\n\t"
+            out_str = out_str + ",\n\t" # Add a comma to indicate new measure
+
         return out_str
 
     def to_file_format(self):
