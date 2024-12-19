@@ -2,6 +2,10 @@
 An autostepper program made to support quick generation of stepfiles from playlists
 
 ![Short Time Fourier Transform of a Music File, Showing Rough Display of Notes](STFT_test1.png)
+The above image is an example of preliminary testing. It's possible to run a "Short-Time Fourier Transform" on the audio signal to split individual results into tracks and frequencies. However, there are several parameters to be tuned. For this particular song, it works decently, but for another track with the same parameters, it might look like the following:
+
+![](
+
 # Inspiration:
 This project has been suggested many times. It seems like there is a demand for auto-generated stepfiles. Personally, I would like the ability to take a playlist of my songs and have a task run that converts this into "decent" (probably difficult to make completely optimal) stepfiles for me to play with.
 * [Dance Dance Convlution](https://github.com/chrisdonahue/ddc)
