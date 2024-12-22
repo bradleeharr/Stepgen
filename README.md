@@ -18,6 +18,8 @@ Unfortuntately, many times such projects have staled and not been completed
 > Disclaimer : Currently in dev. Progress below
 
 # Tips:
+
+The following document provides some inspiration on note pattersn and describes how to calculate the offset for a stepfile, if done manually.
 https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsnYhg/mobilebasic#h.tv62oe7zl3qz
 
 
@@ -48,6 +50,8 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 ### Pattern-Based
 * - [x] Song BPM (Rough)
 * - [x] FFT of Song
+* - [ ] Time Offset
+   * - [ ] Compare with Audacity/Manual Time Offset 
 * - [ ] Song BPM (More Exact)
 * - [ ] Song Speed
 * - [ ] Song Length
