@@ -1,5 +1,5 @@
 # [WIP!] Stepgen
-An autostepper program made to support quick generation of stepfiles from playlists
+The goal of this project is to implement an autostepper program made to support quick generation of stepfiles from playlists
 
 This project is expected to progress in several stages. 
 
