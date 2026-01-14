@@ -13,6 +13,7 @@ Unfortuntately, many times such projects have staled and not been completed
 
 > Disclaimer : Currently in dev. Progress below
 
+
 # Tips:
 https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsnYhg/mobilebasic#h.tv62oe7zl3qz
 
@@ -37,6 +38,10 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
   pip install -r requirements.txt
   ``` 
 
+# Tests
+  ```shell
+  pytest
+  ```
 
 
 # Checklist
