@@ -9,3 +9,7 @@ version = "0.1.0"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
+
+
+[project.scripts]
+stepgen = "src.test_cli:main"
