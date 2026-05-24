@@ -8,6 +8,7 @@ from PyQt6.QtWidgets import (
 	QHBoxLayout,
 	QVBoxLayout,
 	QLabel,
+	QPushButton,
 )
 from .layout_colorwidget import Color
 from .layout_customtitlebar import CustomTitleBar
@@ -27,15 +28,20 @@ class MainWindow(QMainWindow):
 		work_space_layout.addWidget(QLabel("Hello, World!", self))
 
 		central_widget_layout = QVBoxLayout()
-		central_widget_layout.setContentsMargins(0, 0, 0, 0)
+		central_widget_layout.setContentsMargins(2, 2, 2, 2)
 		central_widget_layout.setAlignment(Qt.AlignmentFlag.AlignTop)
 		central_widget_layout.addWidget(self.title_bar)
 		central_widget_layout.addLayout(work_space_layout)
 
+
+		ok_button = QPushButton("OK")
+		def button_quit():
+			QApplication.quit()
+		ok_button.clicked.connect(button_quit)
+		central_widget_layout.addWidget(ok_button)
+
 		central_widget.setLayout(central_widget_layout)
-
-		widget = Color("red")
-
+#		central_widget = Color("red")
 		self.setCentralWidget(central_widget)
 
 

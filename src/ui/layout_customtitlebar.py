@@ -31,6 +31,7 @@ class CustomTitleBar(QWidget):
 		title_bar_layout.setContentsMargins(1, 1, 1, 1 )
 		title_bar_layout.setSpacing(2)
 
+
 		self.title = QLabel(f"{self.__class__.__name__}", self)
 		self.title.setStyleSheet(
 			"""Qlabel {
@@ -38,6 +39,7 @@ class CustomTitleBar(QWidget):
 					border: 2px solid black;
 					border-radius: 12px;
 					margin: 2px;
+					padding: 10px;
 				}
 			"""
 		)
