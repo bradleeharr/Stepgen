@@ -30,13 +30,18 @@ The following document provides some inspiration on note pattersn and describes 
 https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsnYhg/mobilebasic#h.tv62oe7zl3qz
 
 
+# How to use
 
-# How to run
-* Clone the repo
+## Clone the Repository
+ 
+ * Clone the repo
   ```shell
   git clone https://github.com/bradleeharr/Stepgen.git
   cd Stepgen
-  ```
+  ``` 
+
+## How to run -- Windows
+
 * Make a virtual env
   ```shell
   python -m venv .venv`
@@ -44,17 +49,38 @@ https://docs.google.com/document/u/0/d/1Yb9hiewZFs27F3mB6V3reiRBA3E00zb_xfjGVcsn
 * Activate the virtual env
   ```shell
   .venv/scripts/activate
-  ``` 
-* Install requirements
   ```
-  pip install -r requirements.txt
+
+* Install with pip:
+  ```
+  pip install -e .
   ``` 
 
-# Tests
+## How to run -- Linux
+
+* Make a virtual env
+  ```shell
+  python -m venv.venv
+  ```
+* Activate the virtual env
+  ```shell
+  source .venv/bin/activate
+  ```
+* Install with pip:
+  ```shell
+  pip install -e .
+  ```
+ 
+## Run Tests
   ```shell
   pytest
   ```
 
+## Run UI 
+  ```shell
+  stepgen
+  ```
+  
 
 # Checklist
 
