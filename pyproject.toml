@@ -21,6 +21,7 @@ include = ["src*"]
 addopts = "-ra"
 testpaths = [ 
 	"tests",
+	"integration",
 ]
 pythonpath = ["."]
 #filterwarnings =

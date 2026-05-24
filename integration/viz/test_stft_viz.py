@@ -18,6 +18,6 @@ def test_Plot_time():
     file = "Fluffing-a-Duck.mp3"
     y, sr = librosa.load(f"{dir}/{file}")
 
-    
+
 if __name__ == "__main__":
     test_Plot_fft()

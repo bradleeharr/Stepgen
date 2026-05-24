@@ -1,15 +1,12 @@
 from src.stepfile import StepFile
-
 from src.stepfileenums import NoteType, Direction
-
-
 
 
 def test_Song_to_file():
     a = StepFile()
     a.header.title = "Test Step File"
     a.header.artist = "TestArtist"
-    
+
     a.notes.add_note(NoteType.QUARTER, [Direction.DOWN, Direction.UP])
     a.notes.add_note(NoteType.QUARTER, [Direction.UP])
     a.notes.add_note(NoteType.QUARTER, [Direction.DOWN])
@@ -22,4 +19,4 @@ def test_Song_to_file():
 
 def test_Parse_Wav_File():
     a = StepFile()
-    
+
