@@ -3,12 +3,12 @@
 
 
 import matplotlib.pyplot as plt
-from manim import *
+# from manim import *
 from scipy.signal import ShortTimeFFT
 from scipy.signal.windows import gaussian
 
 def plot_fft(y, fs, name=None):
-    
+
     wsz = 256*2
     hop = 128
     win = gaussian(wsz, std=4096, sym=True)
@@ -26,11 +26,16 @@ def plot_fft(y, fs, name=None):
 
     im1 = ax1.imshow(20*np.log10(abs(Sy)), origin='lower', aspect='auto',
                      extent = SFT.extent(len(y)), cmap='viridis')
-    
+
     ax1.set_ylabel("freq (Hz)")
     ax1.set_xlabel("time (seconds)")
-    ax1.legend()
-    fig1.tight_layout()
+    #ax1.legend()
+    #fig1.tight_layout()
     plt.show()
 
+
+if __name__ == '__main__':
+    print("Running stft_viz.py as main")
+    import numpy as np
+    plot_fft(np.arange(0, 20000, 2), 1000, name=f"{__file__} Test")
 
