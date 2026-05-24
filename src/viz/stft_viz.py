@@ -3,7 +3,9 @@
 
 
 import matplotlib.pyplot as plt
+import numpy as np
 # from manim import *
+
 from scipy.signal import ShortTimeFFT
 from scipy.signal.windows import gaussian
 
